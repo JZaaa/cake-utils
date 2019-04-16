@@ -33,8 +33,8 @@ CakeBackup::getInstance($path, $datasources);
 | getTableStatus  | --       |  获取所有表状态   |
 | getTableList  | --       |  获取所有表名   |
 | getTableInfo  |  {string} 表名       |   获取表信息  |
-| optimize  |  {string|array} 表名,例：table1,table2 或 \[table1,table2]     |   优化表  |
-| repair  |  {string|array} 表名,例：table1,table2 或 \[table1,table2]     |   修复表,注意仅MyISAM表可用  |
+| optimize  |  {string\|array} 表名,例：table1,table2 或 \[table1,table2]     |   优化表  |
+| repair  |  {string\|array} 表名,例：table1,table2 或 \[table1,table2]     |   修复表,注意仅MyISAM表可用  |
 | backupTables  |  {array} 表名,例：\[table1,table2]     |   数据表备份  |
 | backupDB  |  --     |   数据库备份  |
 
