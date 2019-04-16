@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-          "JZaaa\\CakeCaptcha\\": "Lib/"
+          "JZaaa\\CakeCaptcha\\": "src/"
         }
     }
 }
