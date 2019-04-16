@@ -1,5 +1,5 @@
 <?php
-namespace App\Lib;
+namespace JZaaa\CakeUtils;
 
 use Cake\Datasource\ConnectionManager;
 use Cake\Filesystem\File;
