@@ -317,7 +317,8 @@ class CakeBackup
             $sql .= $bracket;
             $temp = '';
             foreach ($columns as $value) {
-                $sql .= ($temp . "'" . htmlspecialchars_decode(stripcslashes(($item[$value])), ENT_QUOTES) . "'");
+                $val = is_null($item[$value]) ? "null" : "'" . htmlspecialchars_decode(stripcslashes(($item[$value])), ENT_QUOTES) . "'";
+                $sql .= $temp . $val;
                 $temp = ',';
             }
             $sql .= ')';
